@@ -24,10 +24,7 @@ background-color: #f3f3f3;
     transition-timing-function: ease;
     background-color: #f3f3f3;
 }
-.nav-list{
-    display: flex;
-    
-}
+
 .nav-item{
     list-style: none;
     padding: 10px;
@@ -44,6 +41,7 @@ display: flex;
 .logo{
     display: flex;
     justify-content: space-between;
+
 }
 .card{
     background-color: white;
