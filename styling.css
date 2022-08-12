@@ -10,6 +10,7 @@ background-color: #f3f3f3;
     justify-content: space-between;
     margin: 30px;
     color: #302c43;
+    width: 1100px;
 }
 
 .last-container{
@@ -19,10 +20,9 @@ background-color: #f3f3f3;
     padding: 400px;
 }
 .nav-item:hover{
-    box-shadow: 10px 10px 0px 0px  rgb(0 0 0 / 20%), 0px 0px 0px 10px rgb(0 0 0 / 90%); 
     transition-duration: 0.2s;
     transition-timing-function: ease;
-    background-color: #302c43;
+    background-color: #f3f3f3;
 }
 .nav-list{
     display: flex;
@@ -30,7 +30,8 @@ background-color: #f3f3f3;
 }
 .nav-item{
     list-style: none;
-    margin: 20px;
+    padding: 10px;
+    margin: 5px;
     color: #302c43;
     font-family: Verdana;
     border-radius: 5px;
