@@ -6,19 +6,20 @@ background-color: #f3f3f3;
 }
 
 .container{
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
     margin: 30px;
-    color: #302c43;
+    color: #302c43;*/
     width: 1100px;
+    margin: 0 auto;
 }
 
-.last-container{
-    display: flex;
-    font-weight: bold;
-    justify-content: center;
-    padding: 400px;
+header.container, section.container, main.container{
+    margin-top: 30px;
 }
+
+
+
 .nav-item:hover{
     transition-duration: 0.2s;
     transition-timing-function: ease;
@@ -37,6 +38,7 @@ background-color: #f3f3f3;
 }
 .flex-container{
 display: flex;
+justify-content: space-between;
 }
 .logo{
     display: flex;
@@ -46,12 +48,15 @@ display: flex;
 .card{
     background-color: white;
     font-family: Verdana;
-    width: 350px;
-    margin: auto;	
+    width: 300px;
+    
     color: #999;
     border-radius: 20px;
     padding: 15px;
     
+}
+.card img{
+    width: 100%;
 }
 
 .card:hover{
@@ -69,4 +74,12 @@ display: flex;
     font-style: italic;
     color: #000000;
     text-decoration: none;
+}
+
+
+footer{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
